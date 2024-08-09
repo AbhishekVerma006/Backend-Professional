@@ -2,17 +2,15 @@
   "name": "newbackend",
   "version": "1.0.0",
   "description": "A new Professional Backend Project",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "AbhishekVerma",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.4"
-  }
+  "license": "ISC"
 }
