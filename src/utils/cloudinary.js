@@ -23,3 +23,5 @@ const uploadOnCLoudinary = async()=>{
         return null;
     }
 }
+
+export{uploadOnCLoudinary}
